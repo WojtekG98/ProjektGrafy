@@ -7,6 +7,7 @@
 
 template<class Typ>
 struct Wierzcholek {
+public:
 	Typ Wartosc;
 	unsigned int Klucz;
 	friend std::ostream & operator<< (std::ostream &wyjscie, const Wierzcholek<int> &s);
@@ -19,6 +20,7 @@ std::ostream & operator<< (std::ostream &wyjscie, const Wierzcholek<int> &s) {
 
 template<class Typ>
 struct Krawedz {
+public:
 	Typ Waga;
 	Wierzcholek<Typ> Start, Koniec;
 	unsigned int Klucz;
@@ -35,6 +37,7 @@ public:
 	Lista<Wierzcholek<Typ>> ListaWierzcholkow;
 	Lista<Krawedz<Typ>> ListaKrawedzi;
 	Krawedz<Typ> ***MacierzSasiedztwa;
+public:
 	//Graph();
 	//~Graph();
 	bool insertVertex(Typ W);
