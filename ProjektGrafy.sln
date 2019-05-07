@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjektGrafy", "ProjektGrafy\ProjektGrafy.vcxproj", "{DB5ED704-1A52-41ED-8206-8F012BE360BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB5ED704-1A52-41ED-8206-8F012BE360BA}.Debug|x64.ActiveCfg = Debug|x64
+		{DB5ED704-1A52-41ED-8206-8F012BE360BA}.Debug|x64.Build.0 = Debug|x64
+		{DB5ED704-1A52-41ED-8206-8F012BE360BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB5ED704-1A52-41ED-8206-8F012BE360BA}.Debug|x86.Build.0 = Debug|Win32
+		{DB5ED704-1A52-41ED-8206-8F012BE360BA}.Release|x64.ActiveCfg = Release|x64
+		{DB5ED704-1A52-41ED-8206-8F012BE360BA}.Release|x64.Build.0 = Release|x64
+		{DB5ED704-1A52-41ED-8206-8F012BE360BA}.Release|x86.ActiveCfg = Release|Win32
+		{DB5ED704-1A52-41ED-8206-8F012BE360BA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A33F1DC7-69D7-45D8-9326-6AC4FF3F3113}
+	EndGlobalSection
+EndGlobal
