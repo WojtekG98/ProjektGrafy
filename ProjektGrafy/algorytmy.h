@@ -4,6 +4,7 @@
 #include<iostream>
 #include"struktury.h"
 #include"Lista.h"
+
 template<class Typ>
 Graph<Typ> Kruskal(Graph<Typ> Graf)
 {
@@ -11,4 +12,5 @@ Graph<Typ> Kruskal(Graph<Typ> Graf)
 
 	return Graf;
 }
+
 #endif

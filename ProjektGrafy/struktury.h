@@ -1,3 +1,4 @@
+
 #pragma once
 #ifndef STRUKTURY
 #define STRUKTURY
@@ -48,6 +49,7 @@ public:
 	void vertices();
 	void edges();
 };
+
 /*
 template<class Typ>
 Graph<Typ>::~Graph()

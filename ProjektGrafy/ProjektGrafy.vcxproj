@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClInclude Include="algorytmy.h" />
     <ClInclude Include="Lista.h" />
+    <ClInclude Include="ListaSasiedztwa.h" />
     <ClInclude Include="struktury.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
